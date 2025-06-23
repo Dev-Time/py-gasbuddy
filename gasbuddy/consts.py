@@ -10,7 +10,7 @@ DEFAULT_HEADERS = {
     "Sec-Fetch-Site": "same-origin",
     "Priority": "u=0",
     "apollo-require-preflight": "true",
-    "gbcsrf": "1.i+hEh7FkvCjr/eBk",
+    # "gbcsrf": "1.i+hEh7FkvCjr/eBk", # Removed: This is fetched dynamically
     "Origin": "https://www.gasbuddy.com",
     "Referer": "https://www.gasbuddy.com/home",
     "User-Agent": (
