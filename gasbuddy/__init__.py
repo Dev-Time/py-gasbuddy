@@ -112,9 +112,10 @@ class GasBuddy:
 
             if self._flaresolverr_session_id: # Proceed if session ID was obtained
                 payload = {
-                    "cmd": "request.postJSON",
+                    "cmd": "request.post",
                     "url": self._url,
                     "postData": json_query,
+                    "contentType": "application/json",
                     "session": self._flaresolverr_session_id,
                     "maxTimeout": 60000,
                 }
