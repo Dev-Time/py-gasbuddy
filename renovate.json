@@ -11,5 +11,11 @@
     "automerge": true
   },
   "ignoreTests": true,
-  "rollbackPrs": true
+  "rollbackPrs": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
